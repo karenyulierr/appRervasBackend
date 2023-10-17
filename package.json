@@ -1,7 +1,7 @@
 {
   "name": "appreservasbackend",
   "version": "1.0.0",
-  "type":"module",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,5 +9,11 @@
     "dev": "node --watch index.js"
   },
   "author": "Karen Rodriguez",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  }
 }
