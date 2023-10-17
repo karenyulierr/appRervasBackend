@@ -1,0 +1,9 @@
+# Ignorar la carpeta node_modules
+node_modules
+
+# Ignorar los archivos de registro
+npm-debug.log*
+
+# Ignorar los archivos de compilación
+dist
+build

@@ -1,11 +1,18 @@
 import express from 'express';
+import { db } from './config/db.js';
 import servicesRoute from './routes/ServicesRoute.js';
 
 //Confiugurar la app
 const app = express();
 
+//Conectar a bd
+
+db();
+
 //Definir Ruta
 app.use('/api/services', servicesRoute)
+
+
 
 //Definir Puerto
 const PORT = process.env.PORT || 4000
