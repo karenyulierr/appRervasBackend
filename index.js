@@ -9,6 +9,9 @@ dotenv.config()
 //Confiugurar la app
 const app = express();
 
+//habilitar recibir datos
+app.use(express.json());
+
 //Conectar a bd
 db();
 
